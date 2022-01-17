@@ -1,5 +1,4 @@
 import streamlit as st
-from time import sleep
 
 #Set initial app layout
 st.set_page_config(layout = 'wide', initial_sidebar_state = 'expanded')
@@ -28,11 +27,11 @@ intro_sidebar.markdown(
 >[LinkedIn](https://www.linkedin.com/in/isana-mizuma/)\n
 >[GitHub](https://github.com/ismizu)\n
 >[Blog](https://ismizu.medium.com/)\n
->[App Repository](https://github.com/ismizu/flatiron_cover_letter)
+>[This App's Repository](https://github.com/ismizu/flatiron_cover_letter)
 ''')
 
 #Main Body Text
-st.text('January 12, 2020')
+st.text('January 12, 2022')
 st.title('Dear Hiring Manager,')
 st.markdown(
 '''
