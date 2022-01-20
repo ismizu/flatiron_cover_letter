@@ -1,7 +1,7 @@
 import streamlit as st
 
 #Set initial app layout
-st.set_page_config(initial_sidebar_state = 'expanded')
+st.set_page_config(page_title = 'Flatiron Cover Letter', initial_sidebar_state = 'expanded')
 
 #Instantiate Sidebar
 intro_sidebar = st.sidebar
@@ -32,7 +32,7 @@ During the time I spent completing my degree I had also been working as an instr
 Bergen Community College teaching Logistics and Manufacturing. \
 And following my time at Flatiron, I came to realize that while still holding great interest \
 in Data Science, I was still deeply enthusiatic about teaching; for this reason, \
-I would like to apply as a Coach for Flatiron School's Data Science Program.\n
+I am applying as a Coach for Flatiron School's Data Science Program.\n
 '''
 )
 
@@ -58,8 +58,8 @@ with col_text:
 
     Some of my favorite moments have been receiving messages and calls from past students to talk to me about \
     the jobs they received. My most memorable have been my students from a program that taught students \
-    with intellectual disabilities. One student received their forklift certification and was able to \
-    work as a forklift driver within a logistics facility and another became a manager at UPS!
+    with intellectual disabilities. One student found work as a forklift driver within a logistics facility \
+    and another became a manager at UPS!
     ''')
 
 st.markdown(
@@ -74,7 +74,8 @@ I have also been working part-time teaching math at a [teaching center](https://
 over the course of my job search. It is due to this deep interest in teaching that I would like to apply for the \
 position of Data Science Coach. \n
 
-Warm Regards, \n
-Isana Mizuma
-'''
+<h4>Warm regards,</h4>\n
+<h5>Isana Mizuma</h5>
+''',
+unsafe_allow_html= True
 )
