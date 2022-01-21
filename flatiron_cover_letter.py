@@ -23,11 +23,13 @@ st.text('January 20, 2022')
 st.title('Dear Hiring Manager,')
 st.markdown(
 '''
+&emsp; &nbsp;
 Prior to Flatiron School, I completed a Management Information Systems degree at Rutgers University. \
 My initial interest in Data Science was born during this time as I obtained a high-level understanding of \
 data analysis and data manipulation. And so, I decided to attend Flatiron School's Data Science Program \
 as a means of further elaborating on this understanding.\n
 
+&emsp; &nbsp;
 During the time I spent completing my degree I had also been working as an instructor at \
 Bergen Community College teaching Logistics and Manufacturing. \
 And following my time at Flatiron, I came to realize that while still holding great interest \
@@ -47,15 +49,18 @@ with col_image:
 with col_text:
     st.markdown(
     '''
+    &emsp; &nbsp;
     During my time lecturing, I taught students ranging from late highschool to college students to older adults \
     looking to receive certification. I feel that this range in student age enhanced my ability to \
     communicate ideas in different ways. Particularly in the beginning, I felt like I underwent a crash course \
     (or bootcamp!) in how to state the same thing in ten entirely different ways.\n
 
+    &emsp; &nbsp;
     This process, of finding the best way to communicate ideas to another individual was something I found \
     deeply rewarding. When students had the "Aha! moment" and were able to articulate the information \
     back to me, it was just an absolutely wonderful feeling.\n
 
+    &emsp; &nbsp;
     Some of my favorite moments have been receiving messages and calls from past students to talk to me about \
     the jobs they received. My most memorable have been my students from a program that taught students \
     with intellectual disabilities. One student found work as a forklift driver within a logistics facility \
@@ -64,6 +69,7 @@ with col_text:
 
 st.markdown(
 '''
+&emsp; &nbsp;
 Overall, I find it greatly gratifying to help other students along the path to their own \
 achievements. Post Flatiron, I wrote a few blogposts for a Medium publication, \
 [Python in Plain English](https://python.plainenglish.io/) where I gave base explanations \
